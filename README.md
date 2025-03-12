@@ -19,7 +19,7 @@ I started by testing CPU number one, which successfully loaded the BIOS. After r
 <li>Scheduled Teams Conference: The manufacturer scheduled a Teams conference to discuss the solution and clarify the next steps.</li>
 <li>Discussed Solution and Timeline: During the conference, we discussed the proposed solution and the estimated time for receiving the replacement parts.</li>
 <li>Fast Shipping: Shipping was expedited, and we successfully agreed on a two-day shipping timeframe for the replacement parts.</li>
-<li>einstallation Process: Once the replacement parts arrived, the reinstallation process was straightforward and efficient.</li>
+<li>Reinstallation Process: Once the replacement parts arrived, the reinstallation process was straightforward and efficient.</li>
 <li>System Operational: After reinstallation, the entire environment was fully operational and running without any issues.</li>
 
 <h2>Technical Skills</h2>
