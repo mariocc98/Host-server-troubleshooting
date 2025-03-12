@@ -9,7 +9,7 @@ First I followed a systematic approach, starting by inspecting the internal comp
 
 I started by testing CPU number one, which successfully loaded the BIOS. After removing CPU one, I installed CPU number two and attempted to boot the server. However, with CPU number two installed, the server failed to respond, and I observed red indicator lights on the server. From this, I concluded that CPU number two had failed. Additionally, upon further inspection, I noticed one of the motherboard connections was defective.
 
-<h2>issues encountered</h2>
+<h2>Issues encountered</h2>
 <li>CPU Failure: Unfortunately, CPU number two had failed, preventing the server from booting when installed.</li>
 <li>Defective Motherboard Connector: After further inspection, I discovered that one of the connectors soldered to the motherboard was damaged, which contributed to the failure of the system.</li>
 <li>Dual CPU Dependency: Since the system uses a dual-CPU configuration, I was unable to boot the server with just a single CPU. This caused additional complications, as part of the SSD was not accessible without both CPUs functioning.</li>
@@ -32,4 +32,8 @@ I started by testing CPU number one, which successfully loaded the BIOS. After r
 <li>Cloud Infrastructure Understanding</li>
 <li>Installation and Reinstallation of Hardware</li>
 <h2>Results</h2>
+<li>Issue Resolution: The server issue was successfully identified and resolved by replacing the faulty CPU and motherboard connection.</li>
+<li>System Stability Restored: After the hardware replacement and reinstallation, the server environment was restored to full functionality without any further issues.</li>
+<li>Minimal Downtime: Due to fast shipping and efficient reinstallation, the system was back up and running within a short timeframe, minimizing downtime for the client.</li>
+<li>Client Satisfaction: The solution met the client’s needs, ensuring the continued stability and reliability of their cloud environment.</li>
 
