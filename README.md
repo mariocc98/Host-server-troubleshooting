@@ -1,8 +1,7 @@
 # Host server troubleshooting
-# Installation of new cloud server
 <br>
 <h2>Description</h2>
-Our company aimed to expand its cloud hosting services by deploying an additional four servers to enhance service delivery. This expansion required configuring the new servers and integrating them into our existing network infrastructure within the data center
+The host server, responsible for hosting the cloud environment for the clients, failed. There was no response from the server, and IPMI was unresponsive. I was tasked with investigating the issue and resolving it as quickly as possible 
 <h2>My Role</h2>
 As the technician assigned to this project, I was responsible for installing the operating system "Windows Server 2022" and configuring the IPMI "Intelligent Platform Management Interface" for efficient remote management and maintenance. Additionally, I configured the IP gateway, netmask, and DNS settings to ensure seamless network communication. To enable communication with the secondary cloud infrastructure, I also installed SFP modules.
 
