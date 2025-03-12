@@ -1,7 +1,7 @@
 # Host server troubleshooting
 <br>
 <h2>Description</h2>
-The host server, responsible for hosting the cloud environment for the clients, failed. The server became unresponsive, and IPMI was also non-functional. I was tasked with investigating the issue and resolving it as quickly as possible.
+The host server, responsible for hosting the cloud environment for the clients, failed. The server became unresponsive, and IPMI was also non functional. I was tasked with investigating the issue and resolving it as quickly as possible.
 <h2>My Role</h2>
 As the technician assigned to troubleshoot the issue, I employed a systematic approach and a variety of troubleshooting methods. I also contacted the server's primary provider for system diagrams and additional information to assist with the investigation.
 <h2>Technical Trobleshooting</h2>
