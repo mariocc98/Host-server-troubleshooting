@@ -3,9 +3,12 @@
 <h2>Description</h2>
 The host server, responsible for hosting the cloud environment for the clients, failed. There was no response from the server, and IPMI was unresponsive. I was tasked with investigating the issue and resolving it as quickly as possible 
 <h2>My Role</h2>
-As the technician assigned to this project, I was responsible for installing the operating system "Windows Server 2022" and configuring the IPMI "Intelligent Platform Management Interface" for efficient remote management and maintenance. Additionally, I configured the IP gateway, netmask, and DNS settings to ensure seamless network communication. To enable communication with the secondary cloud infrastructure, I also installed SFP modules.
+As the technician assigned to troubleshoot the server issue, I employed a variety of troubleshooting methods. Additionally, I contacted the server's primary provider for system diagrams and further information to aid in the investigation.
+<h2>Technical Trobleshooting</h2>
+First I followed a systematic approach, starting by inspecting the internal components to check for any loose connections. During my inspection, I found no visible damage on the motherboard. After further investigation, I decided to test the CPUs to identify any potential issues. This specific motherboard uses dual CPUs, so I tested one CPU at a time to determine if one had failed.
 
-Upon completing the initial configurations, I installed a Broadcom NIC "Network Interface Card" to ensure compatibility for communication with the secondary cloud infrastructure. I also made sure the necessary drivers were installed and verified functionality to ensure optimal performance
+I started by testing CPU number one, which successfully loaded the BIOS. After removing CPU one, I installed CPU number two and attempted to boot the server. However, with CPU number two installed, the server failed to respond, and I observed red indicator lights on the server. From this, I concluded that CPU number two had failed. Additionally, upon further inspection, I noticed one of the motherboard connections was defective.
+
 <h2>Technical Skills</h2>
 <li>Operating System Installation and Configuration (Windows Server 2022)</li>
 <li>Server Hardware Setup and Configuration</li>
