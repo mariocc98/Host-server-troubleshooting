@@ -9,18 +9,27 @@ First I followed a systematic approach, starting by inspecting the internal comp
 
 I started by testing CPU number one, which successfully loaded the BIOS. After removing CPU one, I installed CPU number two and attempted to boot the server. However, with CPU number two installed, the server failed to respond, and I observed red indicator lights on the server. From this, I concluded that CPU number two had failed. Additionally, upon further inspection, I noticed one of the motherboard connections was defective.
 
+<h2>issues encountered</h2>
+<li>CPU Failure: Unfortunately, CPU number two had failed, preventing the server from booting when installed.</li>
+<li>Defective Motherboard Connector: After further inspection, I discovered that one of the connectors soldered to the motherboard was damaged, which contributed to the failure of the system.</li>
+<li>Dual CPU Dependency: Since the system uses a dual-CPU configuration, I was unable to boot the server with just a single CPU. This caused additional complications, as part of the SSD was not accessible without both CPUs functioning.</li>
+<li>Need for Replacement Parts: At this point, it became clear that both the motherboard and CPU would need to be replaced by the manufacturer, which would extend the resolution time.</li>
+<h2>Solution</h2>
+<li>Opened Support Ticket: Initiated a support ticket with the manufacturer to address the issue with the server.</li>
+<li>Scheduled Teams Conference: The manufacturer scheduled a Teams conference to discuss the solution and clarify the next steps.</li>
+<li>Discussed Solution and Timeline: During the conference, we discussed the proposed solution and the estimated time for receiving the replacement parts.</li>
+<li>Fast Shipping: Shipping was expedited, and we successfully agreed on a two-day shipping timeframe for the replacement parts.</li>
+<li>einstallation Process: Once the replacement parts arrived, the reinstallation process was straightforward and efficient.</li>
+<li>System Operational: After reinstallation, the entire environment was fully operational and running without any issues.</li>
+
 <h2>Technical Skills</h2>
-<li>Operating System Installation and Configuration (Windows Server 2022)</li>
-<li>Server Hardware Setup and Configuration</li>
-<li>Networking (IP Configuration, IPMI Setup)</li>
-<li>SFP Module Installation</li>
-<li>NIC (Network Interface Card) Installation and Configuration</li>
-<li>Troubleshooting and Diagnostics</li>
+<li>Hardware Diagnostics</li>
+<li>Server Management</li>
+<li>System Testing and Component Isolation</li>
+<li>Collaboration with Vendor and Support</li>
+<li>Problem Solving and Critical Thinking</li>
+<li>Knowledge of Server Architecture Dual CPU Configuration</li>
 <li>Cloud Infrastructure Understanding</li>
+<li>Installation and Reinstallation of Hardware</li>
 <h2>Results</h2>
-<li>Successfully expanded the cloud hosting infrastructure by integrating four new servers, ensuring the company could meet increasing client demands. </li>
-<li>Improved the reliability and efficiency of remote management and server maintenance through the configuration of IPMI (Intelligent Platform Management Interface).</li>
-<li>Enhanced network communication with the secondary cloud infrastructure, ensuring seamless data flow between systems.</li>
-<li>The installation of SFP modules and Broadcom NICs ensured compatibility and performance, reducing the risk of network bottlenecks.</li>
-<li>The server configuration and hardware upgrades resulted in increased uptime and scalability of the cloud services, contributing to improved service delivery to clients.</li>
-<li>Post installation testing confirmed that all systems were operating at optimal performance, with no reported issues in the first month of operation.</li>
+
