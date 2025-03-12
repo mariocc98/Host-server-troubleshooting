@@ -1,9 +1,9 @@
 # Host server troubleshooting
 <br>
 <h2>Description</h2>
-The host server, responsible for hosting the cloud environment for the clients, failed. There was no response from the server, and IPMI was unresponsive. I was tasked with investigating the issue and resolving it as quickly as possible 
+The host server, responsible for hosting the cloud environment for the clients, failed. The server became unresponsive, and IPMI was also non-functional. I was tasked with investigating the issue and resolving it as quickly as possible.
 <h2>My Role</h2>
-As the technician assigned to troubleshoot the server issue, I employed a variety of troubleshooting methods. Additionally, I contacted the server's primary provider for system diagrams and further information to aid in the investigation.
+As the technician assigned to troubleshoot the issue, I employed a systematic approach and a variety of troubleshooting methods. I also contacted the server's primary provider for system diagrams and additional information to assist with the investigation.
 <h2>Technical Trobleshooting</h2>
 First I followed a systematic approach, starting by inspecting the internal components to check for any loose connections. During my inspection, I found no visible damage on the motherboard. After further investigation, I decided to test the CPUs to identify any potential issues. This specific motherboard uses dual CPUs, so I tested one CPU at a time to determine if one had failed.
 
