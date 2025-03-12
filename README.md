@@ -4,10 +4,12 @@
 The host server, responsible for hosting the cloud environment for the clients, failed. The server became unresponsive, and IPMI was also non functional. I was tasked with investigating the issue and resolving it as quickly as possible.
 <h2>My Role</h2>
 As the technician assigned to troubleshoot the issue, I employed a systematic approach and a variety of troubleshooting methods. I also contacted the server's primary provider for system diagrams and additional information to assist with the investigation.
-<h2>Technical Trobleshooting</h2>
-First I followed a systematic approach, starting by inspecting the internal components to check for any loose connections. During my inspection, I found no visible damage on the motherboard. After further investigation, I decided to test the CPUs to identify any potential issues. This specific motherboard uses dual CPUs, so I tested one CPU at a time to determine if one had failed.
-
-I started by testing CPU number one, which successfully loaded the BIOS. After removing CPU one, I installed CPU number two and attempted to boot the server. However, with CPU number two installed, the server failed to respond, and I observed red indicator lights on the server. From this, I concluded that CPU number two had failed. Additionally, upon further inspection, I noticed one of the motherboard connections was defective.
+<h2>Technical Troubleshooting</h2>
+<li>I began by following a systematic approach, starting with inspecting the internal components to check for any loose connections. During my inspection, I found no visible damage on the motherboard.</li>
+<li>After further investigation, I decided to test the CPUs to identify any potential issues. This specific motherboard uses dual CPUs, so I tested one CPU at a time to determine if one had failed.</li>
+<li>I started by testing CPU number one, which successfully loaded the BIOS.</li>
+<li>After removing CPU one, I installed CPU number two and attempted to boot the server. However, with CPU number two installed, the server failed to respond, and I observed red indicator lights on the server. From this, I concluded that CPU number two had failed.</li>
+<li>Additionally, upon further inspection, I noticed one of the motherboard connectors was defective.</li>
 
 <h2>Issues encountered</h2>
 <li>CPU Failure: Unfortunately, CPU number two had failed, preventing the server from booting when installed.</li>
